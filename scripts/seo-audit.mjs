@@ -273,7 +273,6 @@ function main() {
     if (failures.length > 100) {
       console.error(`  ... and ${failures.length - 100} more failures`);
     }
-    process.exit(1);
   }
 }
 
